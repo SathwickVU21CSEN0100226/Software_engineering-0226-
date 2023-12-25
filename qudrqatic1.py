@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+print("--- %s seconds ---" % (time.time() - start_time))
 import matplotlib.pyplot as plt 
 # Input variables from keyboard
 temperature = float(input("Enter temperature (°C): "))
