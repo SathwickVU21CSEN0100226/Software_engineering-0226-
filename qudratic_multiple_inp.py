@@ -1,3 +1,6 @@
+import time
+start_time = time.time()
+print("--- %s seconds ---" % (time.time() - start_time))
 import matplotlib.pyplot as plt 
 # Get user input for multiple sets
 sets_of_inputs = []
